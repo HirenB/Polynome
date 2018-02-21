@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device-width, initialscale=1">
+	<title>Polynome</title>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+	<div class="header">
+		<!-- 
+			help needs more divs, should have full explanation of polymeter
+			and polyrhythm
+		 -->
+		<div class="help"></div>
+		<div class="mute"></div>
+	</div>
+	<div class="wrapper">
+		<!--
+			Section for grid layout where meter and subdivisions can be set
+			Grid will show one measure with subdivisions
+		 -->
+		<div class="polygrid">
+
+			<div class="meter">
+				<div class="increaseMeter"></div>
+				<div class="decreaseMeter"></div>
+			</div>
+
+			<div class="subdivision">
+				<div class="increaseSubdivision"></div>
+				<div class="deacreaseSubdivsion"></div>
+			</div>
+
+			<div class="grid"></div>
+		</div>
+		<!-- 
+			Metronome main section for setting bpm and tap tempo
+		 -->
+		<div class="metronome">
+			<div class="decreaseTempo"></div>
+			<div class="metronome_button">
+				<div class="tempoName"></div>
+				<div class="bpm">bpm
+					<div class="number_bpm"></div>
+				</div>
+			</div>
+			<div class="increaseTempo"></div>
+			
+		</div>
+		<!-- 
+			Control's metronome. Can add on multiple metronomes
+		-->
+		<div class="controlpanel">
+			<div class="tap_button">tap</div>
+			<div class="add_button">add</div>
+		</div>
+		<!-- Will only show with multiple metronomes -->
+		<div class="sync"></div>
+	</div>
+</body>
+</html>

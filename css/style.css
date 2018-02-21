@@ -1,0 +1,94 @@
+html, body {
+	font-size: 15px;
+	font-family: sans-serif;
+	height: 100%;
+	margin: 0;
+	background-color: #eee;
+	color: white;
+	text-shadow: 0px 0px 10px #000, 0px 0px 2px #222;
+	text-align: center;
+}
+.header {
+
+}
+/*make sure to change pixle and vw values to em values later*/
+.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: inherit;
+}
+.polygrid {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	height: inherit;
+}
+.meter {
+	width: 200px;
+}
+.increaseMeter {
+	height: 30px;
+	width: 50px;
+	background-color: black;
+	border: solid 1px cyan;
+}
+.decreaseMeter {
+	height: 30px;
+	width: 50px;
+	background-color: black;
+	border: solid 1px red;
+}
+.metronome {
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.metronome_button {
+	background-color: #333;
+	border-radius: 50%;
+	height: 300px;
+	width: 300px;
+}
+.increaseTempo, .decreaseTempo {
+	background-color: #888;
+	height: 60px;
+	width: 100px;
+	border-radius: 10px;
+}
+
+.metronome_button, .increaseTempo, .decreaseTempo {
+	margin-left: 30px;
+	margin-bottom: 10vh;
+}
+
+.decreaseTempo {
+	margin-left: 0px;
+}
+
+.bpm {
+	padding: 50% 0;
+}
+.controlpanel {
+	height: auto;
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-left: 60px;
+}
+
+.tap_button {
+	background-color: black;
+	border-radius: 50%;
+	padding: 30px;
+}
+
+.add_button {
+	font-size: 14px;
+	background-color: red;
+	border-radius: 50%;
+	padding: 30px;
+}
